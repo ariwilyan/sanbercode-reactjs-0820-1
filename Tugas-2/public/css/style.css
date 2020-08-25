@@ -1,0 +1,109 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-image: url("../img/pattern.jpg");
+    overflow-x: hidden;
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    display: inline;
+}
+
+.navbar .logo-nav {
+    float: left;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: 55px;
+}
+
+/* Navbar links */
+.navbar a {
+    float: right;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar .nav-item {
+    padding: 20px 10px 20px 10px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #dedede;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+    .navbar .logo {
+        width: 80px;
+        height: 30px;
+    }
+    .navbar .nav-item {
+        padding: 10px 5px 10px 5px;
+    }
+}
+
+/* content */
+.content {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px; /* 20px */
+    margin-top: 80px;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 230px;
+    margin-right: 230px;
+    overflow: auto;
+}
+
+.content h1 {
+    text-align: center;
+    padding: 5px 40px 10px 40px;
+}
+
+.list-item {
+    padding: 20px 0px 20px 0px;
+}
+
+.list-item a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

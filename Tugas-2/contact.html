@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <style>
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        .row {
+            padding: 8px 8px 8px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hubungi Kami</h1>
+    <p><b>Kantor :</b> PEOP CORP</p>
+    <p><b>Nomor Telepon :</b> 0812-1234-5678</p>
+    <p><b>Email :</b> peopcorp@gmail.com</p>
+
+    <h1>Kirimkan Pesan</h1>
+    <form action="">
+        <table style="width: 50%; height: 100%;">
+            <tr>
+                <td class="row"><label for="nama_user"><b>Nama</b></label></td>
+                <td class="row"><input type="text" id="nama_user"></td>
+            </tr>
+            <tr>
+                <td class="row"><label for="email_user"><b>Email</b></label></td>
+                <td class="row"><input type="text" id="email_user"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="row"><label><b>Jenis Kelamin</b></label></td>
+                <td style="padding: 8px 0px 0px 0px;"><input type="radio" name="gender" value="0" checked>Laki-laki<br></td>
+            </tr>
+            <tr>
+                <td style="padding: 0px 0px 8px 0px;"><input type="radio" name="gender" value="1">Perempuan</td>
+            </tr>
+            <tr>
+                <td class="row"><label for="pesan_user"><b>Pesan Anda</b></label></td>
+                <td class="row"><textarea id="pesan_user" cols="45" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="row"><input type="submit" value="Kirim"></td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <a href="index.html">Kembali Ke Index</a>
+</body>
+</html>
