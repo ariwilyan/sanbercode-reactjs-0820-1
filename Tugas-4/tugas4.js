@@ -53,6 +53,6 @@ var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"
 urut = daftarBuah.sort();
 var counter = 0;
 while (counter < urut.length) {
-	console.log(urut[counter])
-	counter += 1
+	console.log(urut[counter]);
+	counter += 1;
 }
