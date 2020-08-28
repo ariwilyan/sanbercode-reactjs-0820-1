@@ -97,5 +97,9 @@ switch(bulan) {
 		bulan = "Desember";
 		break;
 	}
+	default: {
+		bulan = "invalid";
+		break;
+	}
 }
 console.log(tanggal.toString() + " " + bulan + " " + tahun.toString());
